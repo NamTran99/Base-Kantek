@@ -1,7 +1,6 @@
 package com.dev.coding.repository.auth
-
-import android.support.core.di.Inject
-import android.support.core.di.ShareScope
+import android.support.di.Inject
+import android.support.di.ShareScope
 import com.dev.coding.datasource.local.UserLocalSource
 import com.dev.coding.model.entity.AccountEntity
 import com.dev.coding.model.ui.LoginForm

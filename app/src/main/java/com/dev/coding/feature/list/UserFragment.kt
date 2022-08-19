@@ -4,8 +4,8 @@ import android.os.Bundle
 import android.support.core.event.LiveDataStatusOwner
 import android.support.core.event.WindowStatusOwner
 import android.support.core.view.viewBinding
-import android.support.core.viewmodel.launch
-import android.support.core.viewmodel.viewModel
+import android.support.viewmodel.launch
+import android.support.viewmodel.viewModel
 import android.view.View
 import androidx.lifecycle.ViewModel
 import com.dev.coding.R

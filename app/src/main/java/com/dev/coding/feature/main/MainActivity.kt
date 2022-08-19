@@ -1,10 +1,10 @@
 package com.dev.coding.feature.main
 
 import android.os.Bundle
-import android.support.core.navigation.NavOptions
-import android.support.core.navigation.Navigator
-import android.support.core.navigation.findNavigator
 import android.support.core.view.viewBinding
+import android.support.navigation.NavOptions
+import android.support.navigation.Navigator
+import android.support.navigation.findNavigator
 import androidx.fragment.app.Fragment
 import com.dev.coding.R
 import com.dev.coding.base.BaseActivity

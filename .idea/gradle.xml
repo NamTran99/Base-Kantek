@@ -11,7 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/support-app-lifecycle" />
+            <option value="$PROJECT_DIR$/support-core" />
+            <option value="$PROJECT_DIR$/support-di" />
+            <option value="$PROJECT_DIR$/support-navigation" />
+            <option value="$PROJECT_DIR$/support-persistent" />
+            <option value="$PROJECT_DIR$/support-viewmodel" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

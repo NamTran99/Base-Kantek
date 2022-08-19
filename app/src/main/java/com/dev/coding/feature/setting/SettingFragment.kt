@@ -4,10 +4,9 @@ import android.os.Bundle
 import android.support.core.livedata.SingleLiveEvent
 import android.support.core.livedata.call
 import android.support.core.view.viewBinding
-import android.support.core.viewmodel.launch
-import android.support.core.viewmodel.viewModel
+import android.support.viewmodel.launch
+import android.support.viewmodel.viewModel
 import android.view.View
-import androidx.activity.result.ActivityResultCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.ViewModel
 import com.dev.coding.R

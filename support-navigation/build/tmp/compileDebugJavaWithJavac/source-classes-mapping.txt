@@ -1,0 +1,2 @@
+android/support/navigation/BuildConfig.java
+ android.support.navigation.BuildConfig

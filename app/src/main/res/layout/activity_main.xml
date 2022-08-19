@@ -14,7 +14,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@id/navHostFragment"
-        android:name="android.support.core.navigation.NavHostFragment"
+        android:name="android.support.navigation.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />

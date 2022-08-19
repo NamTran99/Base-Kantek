@@ -8,14 +8,12 @@ import android.support.core.event.WindowStatusOwner
 import android.support.core.livedata.LoadingLiveData
 import android.support.core.livedata.SingleLiveEvent
 import android.support.core.livedata.post
-import android.support.core.route.close
-import android.support.core.route.closeSuccess
 import android.support.core.view.viewBinding
-import android.support.core.viewmodel.launch
-import android.support.core.viewmodel.viewModel
+import android.support.viewmodel.ViewModelStateSaveAble
+import android.support.viewmodel.launch
+import android.support.viewmodel.viewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelStateSaveAble
 import androidx.lifecycle.lifecycleScope
 import com.dev.coding.R
 import com.dev.coding.base.BaseActivity

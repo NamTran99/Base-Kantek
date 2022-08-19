@@ -1,8 +1,8 @@
 package com.dev.coding.app
 
 import android.app.Application
-import android.support.core.di.module
-import com.dev.coding.BuildConfig
+import android.support.di.module
+import androidx.viewbinding.BuildConfig
 import com.dev.coding.helper.factory.TLSSocketFactory
 import com.dev.coding.helper.interceptor.Logger
 import com.dev.coding.helper.interceptor.LoggingInterceptor

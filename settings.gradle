@@ -3,9 +3,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
+        maven { url "https://jitpack.io" }
     }
 }
 rootProject.name = "coding_challenge"
 include ':app'
-include ':core'
+include ':support-di'
+include ':support-persistent'
+include ':support-navigation'
+include ':support-viewmodel'
+include ':support-core'
+include ':support-app-lifecycle'

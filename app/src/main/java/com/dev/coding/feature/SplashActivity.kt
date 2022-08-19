@@ -3,8 +3,8 @@ package com.dev.coding.feature
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.core.livedata.call
-import android.support.core.viewmodel.launch
-import android.support.core.viewmodel.viewModel
+import android.support.viewmodel.launch
+import android.support.viewmodel.viewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.dev.coding.R

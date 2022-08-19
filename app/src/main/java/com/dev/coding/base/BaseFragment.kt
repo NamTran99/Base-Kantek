@@ -4,7 +4,7 @@ import android.support.core.event.WindowStatusOwner
 import android.support.core.extensions.LifecycleSubscriberExt
 import android.support.core.route.ActivityResultRegister
 import android.support.core.route.RouteDispatcher
-import android.support.core.viewmodel.ViewModelRegistrable
+import android.support.viewmodel.ViewModelRegistrable
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import com.dev.coding.app.AppPermission

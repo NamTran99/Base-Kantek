@@ -1,8 +1,7 @@
 package com.dev.coding.repository.user
-
-import android.support.core.di.Inject
-import android.support.core.di.ShareScope
 import android.support.core.livedata.post
+import android.support.di.Inject
+import android.support.di.ShareScope
 import androidx.lifecycle.MutableLiveData
 import com.dev.coding.datasource.local.UserLocalSource
 import com.dev.coding.factory.UserFactory

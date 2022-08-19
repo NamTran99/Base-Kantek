@@ -1,6 +1,7 @@
 package com.dev.coding.factory
-import android.support.core.di.Inject
-import android.support.core.di.ShareScope
+
+import android.support.di.Inject
+import android.support.di.ShareScope
 
 enum class Gender {
     Male,

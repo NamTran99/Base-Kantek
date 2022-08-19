@@ -1,8 +1,8 @@
 package com.dev.coding.factory
 
 import android.content.Context
-import android.support.core.di.Inject
-import android.support.core.di.ShareScope
+import android.support.di.Inject
+import android.support.di.ShareScope
 import com.dev.coding.R
 import com.dev.coding.model.request.Name
 import com.dev.coding.model.request.Street

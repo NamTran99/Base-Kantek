@@ -1,7 +1,6 @@
 package com.dev.coding.helper.interceptor
-
-import android.support.core.di.Inject
-import android.support.core.di.ShareScope
+import android.support.di.Inject
+import android.support.di.ShareScope
 import android.util.Log
 import com.dev.coding.datasource.local.UserLocalSource
 import okhttp3.Interceptor

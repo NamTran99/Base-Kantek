@@ -1,7 +1,7 @@
 package com.dev.coding
 
 import android.app.Application
-import android.support.core.di.dependencies
+import android.support.di.dependencies
 import com.dev.coding.app.appModule
 
 @Suppress("unused")

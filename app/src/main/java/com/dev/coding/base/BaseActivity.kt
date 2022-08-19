@@ -4,13 +4,12 @@ package com.dev.coding.base
 import android.support.core.event.WindowStatusOwner
 import android.support.core.extensions.LifecycleSubscriberExt
 import android.support.core.route.RouteDispatcher
-import android.support.core.viewmodel.ViewModelRegistrable
+import android.support.viewmodel.ViewModelRegistrable
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import com.dev.coding.exception.ErrorHandler
 import com.dev.coding.exception.ErrorHandlerImpl
 import com.dev.coding.functional.NotSupportable
-import com.dev.coding.views.widget.dialog.ConfirmDialogOwner
 import com.dev.coding.views.widget.dialog.ErrorDialogOwner
 import com.dev.coding.views.widget.dialog.loading.LoadingDialog
 

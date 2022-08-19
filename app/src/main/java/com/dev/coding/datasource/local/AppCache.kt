@@ -1,15 +1,12 @@
 package com.dev.coding.datasource.local
 
 import android.content.Context
-import android.support.core.di.Inject
-import android.support.core.caching.Caching
-import android.support.core.caching.GsonCaching
-import android.support.core.caching.Parser
-import android.support.core.di.ShareScope
-import android.support.core.extensions.withIO
-import com.dev.coding.model.entity.AccountEntity
-import com.dev.coding.model.request.UserDTO
+import android.support.di.Inject
+import android.support.di.ShareScope
+import android.support.persistent.Parser
+import android.support.persistent.cache.Caching
 import com.google.gson.Gson
+import java.lang.reflect.Type
 
 @Inject(ShareScope.Singleton)
 class AppCache(
@@ -24,6 +21,10 @@ class AppCache(
 class ParserImpl : Parser {
 		private val gson = Gson()
 		override fun <T> fromJson(string: String?, type: Class<T>): T? {
+				return gson.fromJson(string, type)
+		}
+		
+		override fun <T> fromJson(string: String?, type: Type): T? {
 				return gson.fromJson(string, type)
 		}
 		

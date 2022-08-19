@@ -1,10 +1,9 @@
 package com.dev.coding.feature.main
 
 import android.os.Bundle
-import android.support.core.navigation.findNavigator
-import android.support.core.navigation.navigate
 import android.support.core.route.BundleArgument
 import android.support.core.route.argument
+import android.support.navigation.findNavigator
 import com.dev.coding.R
 import com.dev.coding.base.BaseActivity
 import com.dev.coding.feature.list.UserDetailFragment
@@ -28,7 +27,7 @@ class MainNavigationActivity : BaseActivity(R.layout.fragment_main_navigation), 
                 is Routing.UserDetail -> UserDetailFragment::class
                 else -> error("Not support")
             }
-            navigator.navigate(clazz, args)
+            navigator.navigate(clazz, args = args.toBundle())
         }
     }
 

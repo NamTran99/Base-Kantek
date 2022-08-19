@@ -1,10 +1,10 @@
 package com.dev.coding.datasource.local
 
 import android.content.Context
-import android.support.core.caching.GsonCaching
-import android.support.core.di.Inject
-import android.support.core.di.ShareScope
 import android.support.core.extensions.withIO
+import android.support.di.Inject
+import android.support.di.ShareScope
+import android.support.persistent.cache.GsonCaching
 import com.dev.coding.model.entity.AccountEntity
 import com.dev.coding.model.request.UserDTO
 
